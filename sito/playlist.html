@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Playlist - Gorillaz </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="img/icone/favicon.ico" type="image/x-icon">
+   </head>
+   <!--barra menu-->
+   <body>
+      <div class="logo">
+         <a href="index.html"><img src="img/icone/logo_gorillaz.svg" alt="Logo Gorillaz"></a>
+      </div>
+      <header>
+         <nav>
+            <a href="storia.html"><img src="img/icone/storia.svg" alt="Storia"></a>
+            <a href="membri.html"><img src="img/icone/membri.svg" alt="Membri"></a>
+            <a href="discografia.html"><img src="img/icone/discografia.svg" alt="Discografia"></a>
+            <a href="playlist.html" class="active"><img src="img/icone/playlist.svg" alt="Playlist"></a>
+            <a href="about.html"><img src="img/icone/about.svg" alt="About"></a>	
+         </nav>
+      </header>
+      <!--main-->
+      <main>
+         <div class="PlaylistText">
+               <h1> Crea la tua playlist! </h1>
+         <p> Ti forniamo 8 delle canzoni più celebri della band, divertiti a creare la tua playlist e ascoltala quante volte vuoi.</p>
+      </div>
+      <div class="flex spacedOnBottom">
+         <div class="canzoni" id="canzoni">
+            <h1 class="atCenter"> Le canzoni</h1>
+            <div class="canzone atCenter" id="1">
+               <p> Feel Good Inc. - Demon Days</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"> </span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class="canzone atCenter" id="2">
+               <p> Dirty Harry - Demon Days</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"> </span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class='canzone atCenter' id="3">
+               <p> Clint Eastwood - Gorillaz</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"> </span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class="canzone atCenter" id="4">
+               <p> Tomorrow Comes Today - Gorillaz</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"></span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class='canzone atCenter' id="5">
+               <p> Rhinestone Eyes - Plastic Beach</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"></span>
+               <span  class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class='canzone atCenter' id="6">
+               <p> On Melancholy Hill - Plastic Beach</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"> </span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class='canzone atCenter' id="7">
+               <p> Tranz - The Now Now</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"> </span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+            <div class='canzone atCenter' id="8">
+               <p> Souk Eye - The Now Now</p>
+               <span class="js-sposta"> <img src="img/icone/add.png" alt="Bottone aggiungi"> </span>
+               <span class="js-spostaIndietro" style="display: none"> <img src="img/icone/minus.png" alt="Bottone rimuovi">
+               </span>
+            </div>
+         </div>
+
+         <div class= "playlist" id="playlist">
+            <h1 class="atCenter"> La tua playlist </h1>
+           <img src="img/icone/play-button.png" class="js-play" alt="Bottone play">
+           <img src="img/icone/pause-button.png" class="js-pause" alt="Bottone pausa">
+           <img src="img/icone/abort-button.png" class="js-abort" alt="Bottone abort">
+       </div>
+    </div>
+   </main>
+
+<footer>
+         <p>
+            Progetto di Progettazione e Programmazione Web a.a. 2021/22 <br/> 
+            Realizzato da <a rel="author" href="about.html"> Sara Rossi</a> <br/>
+            Corso di Laurea in <a href="https://infouma.fileli.unipi.it/">Informatica Umanistica - UniPI</a>
+         </p>
+         <div class="contatti">
+            <a href="mailto:s.rossi104@studenti.unipi.it"><img src="img/icone/email.png" alt="icona email"></a>
+            <a href="https://www.instagram.com/saraross.ii/"><img src="img/icone/instagram.png" alt="icona ig"></a>
+         </div>
+      </footer>
+      <script src= "codici-js/playlist.js"> </script>
+   </body>
+</html>
